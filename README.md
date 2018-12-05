@@ -10,10 +10,14 @@ sudo pacman-mirrors -c China
 sudo pacman -Syyu
 ```
 **2.加 Arch 国内源**    
-sudo vi /etc/pacman.conf  
+```
+sudo vi /etc/pacman.conf
+```
+```
 [archlinuxcn]       
 SigLevel = Optional TrustedOnly     
 Server = https://mirrors.tuna.tsinghua.edu.cn/archlinuxcn/$arch       
+```
 **3.导入GPG Key**    
 ```sudo pacman -S archlinuxcn-keyring```  
 **4.之后可以从库中找到更多的软件了**   
