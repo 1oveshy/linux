@@ -29,11 +29,11 @@ sudo pacman -S archlinuxcn-keyring
 =====
 据说欧洲人习惯不用输入法，因此不自带输入法，更没有中国本地化的中文输入法  
 **以下以搜狗输入法为例**      
-**1、安装搜狗拼音、fcitx-im、fxitx-configtool(图形化界面）**   
+**1.安装搜狗拼音、fcitx-im、fxitx-configtool(图形化界面）**   
 ```
 pacman -S fcitx fcitx-sogoupinyin fcitx-im fcitx-configtool
 ```   
-**2、修改（创建）配置文件`~/.xprofile`**     
+**2.修改（创建）配置文件`~/.xprofile`**     
 ```
 export GTK_IM_MODULE=fcitx
 export QT_IM_MODULE=fcitx
