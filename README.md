@@ -23,7 +23,7 @@ Server = https://mirrors.tuna.tsinghua.edu.cn/archlinuxcn/$arch
 sudo pacman -S archlinuxcn-keyring
 ```
 **4.之后可以从库中找到更多的软件了**   
-如chrome、sougoupinyin、netease-loud-music
+如chrome、sougoupinyin、netease-loud-music     
 **中文输入法**
 =====
 据说欧洲人习惯不用输入法，因此不自带输入法，更没有中国本地化的中文输入法  
