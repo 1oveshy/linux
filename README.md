@@ -1,13 +1,13 @@
-**[manjaro]**  
+**[manjaro]**
 =====
 manjaro是当前流行的linux发行版之一，它是由archlinux发展而来，用户友好的linux发行版，滚动更新，采用AUR仓库。    
-        
-        
 **源**
 =====
 **1.排列镜像源，升级系统**      
-```sudo pacman-mirrors -c China         
-sudo pacman -Syyu```  
+```
+sudo pacman-mirrors -c China
+sudo pacman -Syyu
+```
 **2.加 Arch 国内源**    
 sudo vi /etc/pacman.conf  
 [archlinuxcn]       
